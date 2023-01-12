@@ -1,0 +1,79 @@
+.header{
+    height: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+h2{
+    padding-top: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+    letter-spacing: -0.0083em;
+}
+
+h6{
+    color: darkgray;
+    text-transform: capitalize;
+    font-size: 1.0rem;
+    font-weight: 300;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+}
+
+.banner{
+    background-image: url('../../assets/banner.jpg');
+    height: 400px;
+    width: 100%;
+}
+
+.sub-header{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    border: 0;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    height: 200px;
+    img{
+        width: 70px;
+        margin: 0 auto;
+    }
+    h5{
+        font-weight: 500;
+    }
+    p{
+        font-weight: 700;
+    }
+    span{
+        display: block;
+        font-size: 1rem;
+    }
+}
+
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+  .table-container{
+    padding-bottom: 30px;
+  }
